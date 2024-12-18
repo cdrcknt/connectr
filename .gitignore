@@ -33,3 +33,5 @@ Thumbs.db
 firebase-admin-init.js
 src/backend/config/serviceAccountKey.json
 src\backend\config\firebase-admin-init.js
+
+public/js/firebaseConfig.js
