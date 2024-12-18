@@ -1,0 +1,37 @@
+{
+    "name": "connectr",
+    "version": "1.0.0",
+    "description": "Ambient Social Networking App",
+    "main": "public/js/app.js",
+    "type": "module",
+    "scripts": {
+        "start": "npx http-server public",
+        "dev": "nodemon src/backend/server.js"
+    },
+    "keywords": [
+        "social",
+        "networking",
+        "ambient"
+    ],
+    "author": "Cedric Kent Centeno",
+    "license": "ISC",
+    "dependencies": {
+        "@babel/core": "^7.26.0",
+        "@babel/preset-env": "^7.26.0",
+        "axios": "^1.7.9",
+        "babel-cli": "^6.26.0",
+        "compression": "^1.7.5",
+        "cors": "^2.8.5",
+        "crypto": "^1.0.1",
+        "dotenv": "^16.4.7",
+        "express": "^4.21.2",
+        "express-rate-limit": "^7.5.0",
+        "firebase": "^9.23.0",
+        "firebase-admin": "^13.0.1",
+        "helmet": "^8.0.0",
+        "http-server": "^14.1.1",
+        "jsonwebtoken": "^9.0.2",
+        "mongoose": "^8.9.1",
+        "nodemon": "^3.1.9"
+    }
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connectr - Dashboard</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/dashboard.css">
+</head>
+<body>
+    <div id="dashboard-container">
+        <aside id="sidebar">
+            <div class="logo">Connectr</div>
+            <nav>
+                <ul>
+                    <li><a href="#" id="nav-profile">Profile</a></li>
+                    <li><a href="#" id="nav-connections">Connections</a></li>
+                    <li><a href="#" id="nav-mood">Mood Tracker</a></li>
+                    <li><a href="#" id="nav-settings">Settings</a></li>
+                    <li><a href="#" id="logout-btn">Logout</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main id="main-content">
+            <header>
+                <div id="user-info">
+                    <img id="user-avatar" src="" alt="User Avatar">
+                    <span id="user-name"></span>
+                </div>
+            </header>
+
+            <section id="content-area">
+                <!-- Dynamic content will be loaded here -->
+            </section>
+        </main>
+    </div>
+
+    <script type="module" src="/js/dashboard.js"></script>
+</body>
+</html>
