@@ -1,7 +1,6 @@
-import { auth, db } from './firebase-config.js';
+import { auth, db } from './firebaseConfig.js';
 import { signOut, onAuthStateChanged } from 'firebase/auth';
 import { doc, getDoc, updateDoc } from 'firebase/firestore';
-import { auth, googleProvider } from "./firebaseConfig.js";
 
 class Dashboard {
     constructor() {
@@ -122,5 +121,6 @@ class Dashboard {
     }
 }
 
-// Initialize dashboard when page loads
 document.addEventListener('DOMContentLoaded', () => new Dashboard());
+
+export default Dashboard;

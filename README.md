@@ -10,5 +10,8 @@ Connectr is a revolutionary social networking platform that breaks traditional s
 - Ephemeral content sharing
 - Privacy-first design
 
-## Developed By
+## Developers
 Cedric Kent Centeno
+
+```
+
